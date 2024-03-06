@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "286891984158",
+    "project_id": "loremlibrary",
+    "storage_bucket": "loremlibrary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286891984158:android:94a3337f4980fd5211350f",
+        "android_client_info": {
+          "package_name": "com.example.loremperpus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286891984158-sg9pvjk8c888hv9pgpqa925d3auqlokc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loremperpus",
+            "certificate_hash": "57a083ce0dd5f6fddbec5f3ae1d6371aa843094c"
+          }
+        },
+        {
+          "client_id": "286891984158-h5hr21qedbbmd65m2bu9nntd8miqrof9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAbmwBT8FUa_8LFjUpyToCP-oaxHV1BPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286891984158-h5hr21qedbbmd65m2bu9nntd8miqrof9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

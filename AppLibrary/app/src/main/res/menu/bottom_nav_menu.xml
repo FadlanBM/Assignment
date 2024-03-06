@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_list_book"
+        android:icon="@drawable/list"
+        android:title="@string/list" />
+
+    <item
+        android:id="@+id/navigation_cart"
+        android:icon="@drawable/shopping_cart"
+        android:title="@string/cart_buku" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/order_history"
+        android:title="@string/history" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/settings"
+        android:title="@string/settings" />
+
+</menu>

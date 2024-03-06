@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LoremPerpus</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="list">List Buku</string>
+    <string name="cart_buku">Cart Buku</string>
+    <string name="settings">Settings</string>
+    <string name="history">History</string>
+    <string name="like">Like</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Lending.GenerateQRActivity">
+
+    <ImageView
+        android:id="@+id/imageViewQR"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerInside" />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/imageViewQR"
+       android:gravity="center"
+       android:id="@+id/llShowCode"
+       android:layout_marginTop="@dimen/_10sdp"
+       android:orientation="horizontal">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Code : "
+           android:textColor="@android:color/black"
+           android:textSize="18sp"
+           android:fontFamily="@font/poppinsmedium"/>
+       <TextView
+           android:id="@+id/tvShowCode"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="ASQLSFF"
+           android:fontFamily="@font/poppinsbold"
+           android:textColor="@android:color/black"
+           android:textSize="18sp" />
+   </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBackMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back Menu"
+        android:layout_below="@id/llShowCode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:cornerRadius="@dimen/_5sdp"
+        />
+
+
+</RelativeLayout>

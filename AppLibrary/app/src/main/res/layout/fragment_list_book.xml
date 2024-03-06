@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.list_book.ListBookFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:orientation="horizontal"
+        android:id="@+id/ll_list_book">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tiFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Filter" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/btnShowQr"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/qr_code"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/_10sdp"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_list_book"
+        tools:listitem="@layout/list_book"
+        app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+        app:spanCount="2"
+        android:id="@+id/rvListBarang"/>
+</RelativeLayout>
